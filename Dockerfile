@@ -9,5 +9,5 @@ WORKDIR /app
 
 RUN uv sync --locked --no-cache
 
-CMD ["/app/.venv/bin/fastapi", "run", "app/main.py", "--port", "8088"]
+CMD ["/app/.venv/bin/fastapi", "run", "app/main.py", "--port", "3000"]
 
